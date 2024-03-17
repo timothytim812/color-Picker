@@ -1,5 +1,7 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: hsla(0, 0%, 10%) ;
+  color: aliceblue;
 }
 
 .color-picker-container{
@@ -21,13 +23,15 @@ h1 {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  border: 5px solid #1111;
+  border: 5px solid aliceblue;
   transition: ease-in-out 0.5s;
 }
 
 .color-display p {
   font-size: 1.5rem;
   text-align: center;
+  color:black;
+  font-weight: bold;
 }
 
 label {
